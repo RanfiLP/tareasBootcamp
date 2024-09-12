@@ -1,0 +1,24 @@
+body {
+    font-family: 'Tangerine', serif;
+    font-size: 25px;
+    text-shadow: 1px 4px 4px #aaa;
+  }
+p {
+    color: rgb(17, 19, 17);
+  }
+h1 {
+    font-effect-neon
+    color: blue;
+}
+h2 {
+    color: rgb(84, 84, 155);
+}
+h3 {
+    color: rgb(84, 84, 155);
+}
+a {
+    color: rgb(116, 8, 8);
+    font-size: 40px;
+    font-family: ;
+    text-align: center;
+}
