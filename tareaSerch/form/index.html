@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/form/style.css">
+</head>
+
+<body>
+  <main>
+  <h1>TAREA SERCH</h1>
+  </main>
+  
+  <button type="button" onclick="obtenerUsuarios()">
+    Click para ver información
+  </button>
+
+  <div class="scoreboard" style="display: block;">
+    <table class="tablaDeMarcadores">
+      <thead class="cabeceraDeTabla">
+        <tr class="filaDeCabeceraDeTabla">
+          <th>id</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Correo Electrónico</th>
+          <th>Imagen</th>
+        </tr>
+      </thead>
+      <tbody class="cuerpoDeTabla"></tbody>
+    </table>
+  </div>
+
+  <div id="onclick" class="paginacionMiPag">
+    <a href="#1" onclick="obtenerUsuarios(1)">  1  </a>
+    <a href="#2" onclick="obtenerUsuarios(2)">  2  </a>
+  </div>
+
+</body>
+
+<script src="/form/script.js"></script>
+</html>
